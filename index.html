@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <header id="header">
+        <a href=""><img src="./assets/Thlaes.png" class="logo" alt="Logo"></a>
+    <nav>
+        <ul id="navBar">
+            <li><a href="#heroSection">About</a></li>
+            <li><a href="#project">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <svg id="close" xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#fff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </ul>
+    </nav>
+        <!--MOBILE NAV BAR-->
+        <div class="sideBar">
+                <svg id="bar" xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#fff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </div>
+
+    </header>
+
+    <section id="heroSection" class="heroSection-container">
+        <h1>Hey I am Thlaes</h1>
+        <p>a web developer</p>
+    </section>
+
+    <section id="project" class="projects-section">
+        <h2 class="projects-section-title">These are some of my projects</h2>
+        <div class="projects-grid">
+            <a href="https://github.com/Thalesmar/Temperature-conversion-">
+                <img class="project-img" src="./imgs/map.jpg" target="_blank">
+                <p class="proj">Temperature-conversion</p>
+            </a>
+            <a href="https://github.com/Thalesmar/Dice-Game">
+                <img class="project-img" src="./imgs/tic-tac-toe.png" target="_blank">
+                <p class="proj">Dice-Game</p>
+            </a>
+                <a href="https://github.com/Thalesmar/Temperature-conversion-">
+                <img class="project-img" src="./imgs/tribute.jpg" target="_blank">
+                <p class="proj">CounterProgram </p>
+            </a>
+        </div>
+        <a class="btn btn-show-all" href="https://github.com/Thalesmar" target="_blank">Show all <i class="fas fa-chevron-right"></i></a>
+    </section>
+
+    <section id="contact" class="contact">
+        <h1 class="contact-text">Stay in touch with me...</h1>
+        <p class="contact-para">How do you take your coffee?</p>
+        <div class="contact-links">
+        <a href="https://facebook.com/freecodecamp" target="_blank" class="btn-contact contact-details"><i class="fab fa-facebook-square"></i> Facebook</a>
+        <a id="profile-link" href="https://github.com/Thalesmar" target="_blank" class="btn-contact contact-details"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://x.com/Thaleshr_" target="_blank" class="btn-contact contact-details"><i class="fab fa-twitter"></i> Twitter</a>
+        <a href="mailto:ineyass928@gmail.com" class="btn-contact contact-details"><i class="fas fa-at"></i> Send a mail</a>
+      </div>
+    </section>
+
+    <footer>
+        <p>**This is just a fake portfolio. All the projects and contact details given are not big projects.</p>
+        <p>
+        © Created for
+        <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i></a>
+        </p>
+    </footer>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
